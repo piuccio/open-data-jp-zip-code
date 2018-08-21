@@ -1,0 +1,21 @@
+{
+  "name": "open-data-jp-zip-code",
+  "version": "1.0.0",
+  "description": "List of Japanese zipcodes in an accessible format",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon --watch index.js"
+  },
+  "author": "Fabio Crisci",
+  "license": "MIT",
+  "devDependencies": {
+    "csv-parse": "^2.5.0",
+    "got": "^9.0.0",
+    "iconv": "^2.3.0",
+    "unzip-stream": "^0.3.0"
+  },
+  "dependencies": {
+    "capitalize": "^1.0.0"
+  }
+}
